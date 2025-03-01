@@ -42,7 +42,7 @@ pkill -9 threads_deadlock
 echo "[INFO] threads_deadlock manually terminated (Deadlock expected)" | tee -a $LOG_FILE
 
 # Test resolved deadlock
-run_test "threads_deadlock_resolved" "Final account balances"
+run_test "threads_deadlock_fix" "Final account balances"
 
 # Test IPC (Parent to Child)
 run_test "ipc_pipe" "Child received"

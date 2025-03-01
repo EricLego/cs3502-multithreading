@@ -1,0 +1,6 @@
+Running Tests - Fri Feb 28 22:00:50 EST 2025
+[FAIL] threads_mutex - Check output.log
+[INFO] threads_deadlock manually terminated (Deadlock expected)
+[FAIL] threads_deadlock_resolved - Check output.log
+[FAIL] ipc_pipe - Check output.log
+[FAIL] ipc_bi_directional - Check output.log
