@@ -23,7 +23,7 @@ echo "Compiling Programs..."
 # Compile multi-threading programs
 gcc -pthread -o threads_mutex src/threads_mutex.c
 gcc -pthread -o threads_deadlock src/threads_deadlock.c
-gcc -pthread -o threads_deadlock_resolved src/threads_deadlock_resolved.c
+gcc -pthread -o threads_deadlock_fix src/threads_deadlock_fix.c
 
 # Compile IPC programs
 gcc -o ipc_pipe src/ipc_pipe.c
